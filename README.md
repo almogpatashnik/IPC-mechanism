@@ -5,8 +5,8 @@ A message slot device has multiple message channels active concurrently, which c
 In contrast to pipes, a message channel preserves a message until itis overwritten, so the same message can be read multiple times.
 In additiod to the kernel module the project contain an interface (message_reader.c and message_sender.c) for the user to receive/send messages from the message slot.
 
-This project was done as a part of Operation Systems course held at Tel-Aviv-University, Spring 2024. Grade of the project: 100
-The full details of the project are described in [msgslot - assigment description.pdf](msgslot - assigment description.pdf)
+This project was done as a part of Operation Systems course held at Tel-Aviv-University, Spring 2024. Grade of the project: 100.
+The full details of the project are described in msgslot - assigment description.pdf
 
 ## Usage
 ### Loading the kernel module and creating device files
